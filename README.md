@@ -10,16 +10,16 @@ pip install .
 
 ```bash
 # Start a new conversation
-ai new [--name CONV_NAME] [--model MODEL]
+warroom new [--name CONV_NAME] [--model MODEL]
 
 # List conversations
-ai list
+warroom list
 
 # Continue a conversation
-ai chat CONV_NAME
+warroom chat CONV_NAME
 
 # Delete a conversation
-ai delete CONV_NAME
+warroom delete CONV_NAME
 ```
 
 ## Configuration

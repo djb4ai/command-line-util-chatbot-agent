@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ai-cli"
+name = "warroom"
 version = "0.1.0"
 description = "A CLI-based AI chat interface"
 readme = "README.md"
@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-ai = "ai_cli.__main__:main"
+warroom = "ai_cli.__main__:main"
 
 [project.urls]
 Homepage = "https://github.com/djb4ai/command-line-util-chatbot-agent"

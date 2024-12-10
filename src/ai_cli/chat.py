@@ -29,7 +29,7 @@ class ChatManager:
         self.tokenizer = tiktoken.encoding_for_model(model)
         
         # Conversation storage
-        self.conversations_dir = os.path.expanduser("~/.ai_cli/conversations")
+        self.conversations_dir = os.path.expanduser("~/.warroom_cli/conversations")
         os.makedirs(self.conversations_dir, exist_ok=True)
     
     def get_conversation_path(self, name: str) -> str:

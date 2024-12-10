@@ -1,3 +1,4 @@
+# src/ai_cli/__main__.py
 import click
 from .cli import (
     create_new_conversation, 
@@ -8,7 +9,7 @@ from .cli import (
 
 @click.group()
 def main():
-    """AI CLI: Your terminal-based AI assistant."""
+    """Warroom: Your terminal-based AI assistant."""
     pass
 
 @main.command()
